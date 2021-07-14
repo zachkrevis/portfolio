@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 import Sidebar form '../components/Sidebar/';
 
-const Home = {} => {
- const [isOpen, setIsOpen] = useState{false};
+const Home = () => {
+ const [isOpen, setIsOpen] = useState(false);
  
- const toggle = {} => {
+ const toggle = () => {
   setIsOpen(!isOpen);
  };
   
