@@ -11,7 +11,7 @@ import {
 } from './NavbarElement';
 
 
-const Navbar = ({toggle) => {
+const Navbar = ({toggle}) => {
     return (
         <>
             <Nav>
