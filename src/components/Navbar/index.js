@@ -10,13 +10,14 @@ import {
     NavLinks
 } from './NavbarElement';
 
-const Navbar = () => {
+
+const Navbar = ({toggle}) => {
     return (
         <>
             <Nav>
                 <NavbarContainer>
                     <NavbarLogo to='/'>Zach Krevis</NavbarLogo>
-                    <MobileLogo>
+                    <MobileLogo onClick={toggle}>
                         <FaBars />
                     </MobileLogo>
                     <NavMenu>
@@ -34,6 +35,6 @@ const Navbar = () => {
             </Nav>
         </>
     )
-}
+};
 
-export default Navbar
+export default Navbar;
