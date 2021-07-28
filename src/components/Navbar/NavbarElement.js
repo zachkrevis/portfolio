@@ -4,8 +4,8 @@ import { Link as link_scroll } from 'react-scroll';
 
 
 export const Nav = styled.nav`
-  background: BLACK;
-  height: 80px;
+  background: rgb(0,0,0);
+  height: 10vh;
   /*margin-top: -80px;*/
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@ export const NavbarContainer = styled.div`
   `;
 
 export const NavbarLogo = styled(link_router)`
-  color: #fff;
+  color: white;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -55,12 +55,12 @@ export const MobileLogo = styled.div`
       color: white;
   }
 `;
-
+ 
 export const NavMenu = styled.ul`
   display: flex;
   align-items: center;
   list-style: none;
-  text-align: center;
+  text-align: left;
   margin-right: 24px;
 
   @media screen and (max-width: 768px) {
