@@ -9,19 +9,19 @@ const Sidebar = ({isOpen, toggle}) => {
       </Icon>
       <SidebarWrapper>
         <SidebarItems>
-          <SidebarLink to="about">
+          <SidebarLink to="AboutMe" spy={true} smooth={true} duration={500} onClick={toggle}>
             About me
           </SidebarLink>
 
-          <SidebarLink to="projects">
-            Projects
+          <SidebarLink to="CourseWork" spy={true} smooth={true} duration={500} onClick={toggle}>
+            Course Work
           </SidebarLink>
   
-          <SidebarLink to="experience">
+          <SidebarLink to="experience" onClick={toggle}>
             Experience
           </SidebarLink>
 
-          <SidebarLink to="contact">
+          <SidebarLink to="contact" onClick={toggle}>
             Contact
           </SidebarLink>
 

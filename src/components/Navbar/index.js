@@ -22,10 +22,10 @@ const Navbar = ({toggle}) => {
                     </MobileLogo>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="about">About Me</NavLinks>
+                            <NavLinks to="AboutMe" spy={true} smooth={true} duration={500}>About Me</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="projects">Projects</NavLinks>
+                            <NavLinks to="CourseWork" spy={true} smooth={true} duration={500}>Course Work</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="Experience">Experience</NavLinks>

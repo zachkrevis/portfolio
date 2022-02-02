@@ -1,16 +1,15 @@
 import React from 'react';
-import Video from '../../Videos/video.mp4'
-import { HeroContainer, HeroBackground, VideoBackground, HeroContent, HeroH1, HeroP } from './HeroElements';
+import Photo from '../../Photos/face.png'
+import { HeroContainer, HeroContent, HeroH1, HeroP, HeroLogo } from './HeroElements';
 
 const HeroSection = () => {
+
     return (
         <HeroContainer>
-            <HeroBackground>
-                <VideoBackground autoPlay loop muted height="100%" width="100%" src={Video} type='video/ mp4' />
-            </HeroBackground>
             <HeroContent>
+                <HeroLogo src={Photo} alt = "Webpage Logo" draggable="false"/>
                 <HeroH1>Zach Krevis</HeroH1>
-                <HeroP>Software Engineer</HeroP>
+                <HeroP>Software Engineer | Web Developer</HeroP>
             </HeroContent>
         </HeroContainer>
     );
