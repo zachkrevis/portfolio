@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7c42862c.chunk.css",
-    "main.js": "/portfolio/static/js/main.1f06624a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1f06624a.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
-    "static/css/2.f9f7ba1f.chunk.css": "/portfolio/static/css/2.f9f7ba1f.chunk.css",
-    "static/js/2.344b00d9.chunk.js": "/portfolio/static/js/2.344b00d9.chunk.js",
-    "static/js/2.344b00d9.chunk.js.map": "/portfolio/static/js/2.344b00d9.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/2.f9f7ba1f.chunk.css.map": "/portfolio/static/css/2.f9f7ba1f.chunk.css.map",
-    "static/css/main.7c42862c.chunk.css.map": "/portfolio/static/css/main.7c42862c.chunk.css.map",
-    "static/js/2.344b00d9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.344b00d9.chunk.js.LICENSE.txt",
-    "static/media/Notepad.04dcc723.png": "/portfolio/static/media/Notepad.04dcc723.png",
-    "static/media/Responsive.ce966c69.png": "/portfolio/static/media/Responsive.ce966c69.png",
-    "static/media/face.8d65467d.png": "/portfolio/static/media/face.8d65467d.png"
+    "main.css": "/static/css/main.7c42862c.chunk.css",
+    "main.js": "/static/js/main.1f06624a.chunk.js",
+    "main.js.map": "/static/js/main.1f06624a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d0605945.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
+    "static/css/2.f9f7ba1f.chunk.css": "/static/css/2.f9f7ba1f.chunk.css",
+    "static/js/2.21ec62be.chunk.js": "/static/js/2.21ec62be.chunk.js",
+    "static/js/2.21ec62be.chunk.js.map": "/static/js/2.21ec62be.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.f9f7ba1f.chunk.css.map": "/static/css/2.f9f7ba1f.chunk.css.map",
+    "static/css/main.7c42862c.chunk.css.map": "/static/css/main.7c42862c.chunk.css.map",
+    "static/js/2.21ec62be.chunk.js.LICENSE.txt": "/static/js/2.21ec62be.chunk.js.LICENSE.txt",
+    "static/media/Notepad.04dcc723.png": "/static/media/Notepad.04dcc723.png",
+    "static/media/Responsive.ce966c69.png": "/static/media/Responsive.ce966c69.png",
+    "static/media/face.8d65467d.png": "/static/media/face.8d65467d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a9f76519.js",
+    "static/js/runtime-main.d0605945.js",
     "static/css/2.f9f7ba1f.chunk.css",
-    "static/js/2.344b00d9.chunk.js",
+    "static/js/2.21ec62be.chunk.js",
     "static/css/main.7c42862c.chunk.css",
     "static/js/main.1f06624a.chunk.js"
   ]
