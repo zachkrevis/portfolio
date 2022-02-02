@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7c42862c.chunk.css",
-    "main.js": "/portfolio/static/js/main.5e92e800.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5e92e800.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
-    "static/css/2.f9f7ba1f.chunk.css": "/portfolio/static/css/2.f9f7ba1f.chunk.css",
-    "static/js/2.344b00d9.chunk.js": "/portfolio/static/js/2.344b00d9.chunk.js",
-    "static/js/2.344b00d9.chunk.js.map": "/portfolio/static/js/2.344b00d9.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/2.f9f7ba1f.chunk.css.map": "/portfolio/static/css/2.f9f7ba1f.chunk.css.map",
-    "static/css/main.7c42862c.chunk.css.map": "/portfolio/static/css/main.7c42862c.chunk.css.map",
-    "static/js/2.344b00d9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.344b00d9.chunk.js.LICENSE.txt",
-    "static/media/Responsive.ce966c69.png": "/portfolio/static/media/Responsive.ce966c69.png",
-    "static/media/face.8d65467d.png": "/portfolio/static/media/face.8d65467d.png"
+    "main.css": "/zachkrevis.com/portfolio/static/css/main.7c42862c.chunk.css",
+    "main.js": "/zachkrevis.com/portfolio/static/js/main.1f06624a.chunk.js",
+    "main.js.map": "/zachkrevis.com/portfolio/static/js/main.1f06624a.chunk.js.map",
+    "runtime-main.js": "/zachkrevis.com/portfolio/static/js/runtime-main.866841bc.js",
+    "runtime-main.js.map": "/zachkrevis.com/portfolio/static/js/runtime-main.866841bc.js.map",
+    "static/css/2.f9f7ba1f.chunk.css": "/zachkrevis.com/portfolio/static/css/2.f9f7ba1f.chunk.css",
+    "static/js/2.dba10fdb.chunk.js": "/zachkrevis.com/portfolio/static/js/2.dba10fdb.chunk.js",
+    "static/js/2.dba10fdb.chunk.js.map": "/zachkrevis.com/portfolio/static/js/2.dba10fdb.chunk.js.map",
+    "index.html": "/zachkrevis.com/portfolio/index.html",
+    "static/css/2.f9f7ba1f.chunk.css.map": "/zachkrevis.com/portfolio/static/css/2.f9f7ba1f.chunk.css.map",
+    "static/css/main.7c42862c.chunk.css.map": "/zachkrevis.com/portfolio/static/css/main.7c42862c.chunk.css.map",
+    "static/js/2.dba10fdb.chunk.js.LICENSE.txt": "/zachkrevis.com/portfolio/static/js/2.dba10fdb.chunk.js.LICENSE.txt",
+    "static/media/Notepad.04dcc723.png": "/zachkrevis.com/portfolio/static/media/Notepad.04dcc723.png",
+    "static/media/Responsive.ce966c69.png": "/zachkrevis.com/portfolio/static/media/Responsive.ce966c69.png",
+    "static/media/face.8d65467d.png": "/zachkrevis.com/portfolio/static/media/face.8d65467d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a9f76519.js",
+    "static/js/runtime-main.866841bc.js",
     "static/css/2.f9f7ba1f.chunk.css",
-    "static/js/2.344b00d9.chunk.js",
+    "static/js/2.dba10fdb.chunk.js",
     "static/css/main.7c42862c.chunk.css",
-    "static/js/main.5e92e800.chunk.js"
+    "static/js/main.1f06624a.chunk.js"
   ]
 }
