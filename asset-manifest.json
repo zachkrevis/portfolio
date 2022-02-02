@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/zachkrevis.com/static/css/main.7c42862c.chunk.css",
-    "main.js": "/zachkrevis.com/static/js/main.1f06624a.chunk.js",
-    "main.js.map": "/zachkrevis.com/static/js/main.1f06624a.chunk.js.map",
-    "runtime-main.js": "/zachkrevis.com/static/js/runtime-main.5116ac6f.js",
-    "runtime-main.js.map": "/zachkrevis.com/static/js/runtime-main.5116ac6f.js.map",
-    "static/css/2.f9f7ba1f.chunk.css": "/zachkrevis.com/static/css/2.f9f7ba1f.chunk.css",
-    "static/js/2.82c1248a.chunk.js": "/zachkrevis.com/static/js/2.82c1248a.chunk.js",
-    "static/js/2.82c1248a.chunk.js.map": "/zachkrevis.com/static/js/2.82c1248a.chunk.js.map",
-    "index.html": "/zachkrevis.com/index.html",
-    "static/css/2.f9f7ba1f.chunk.css.map": "/zachkrevis.com/static/css/2.f9f7ba1f.chunk.css.map",
-    "static/css/main.7c42862c.chunk.css.map": "/zachkrevis.com/static/css/main.7c42862c.chunk.css.map",
-    "static/js/2.82c1248a.chunk.js.LICENSE.txt": "/zachkrevis.com/static/js/2.82c1248a.chunk.js.LICENSE.txt",
-    "static/media/Notepad.04dcc723.png": "/zachkrevis.com/static/media/Notepad.04dcc723.png",
-    "static/media/Responsive.ce966c69.png": "/zachkrevis.com/static/media/Responsive.ce966c69.png",
-    "static/media/face.8d65467d.png": "/zachkrevis.com/static/media/face.8d65467d.png"
+    "main.css": "/zachkrevis.github.io/static/css/main.7c42862c.chunk.css",
+    "main.js": "/zachkrevis.github.io/static/js/main.1f06624a.chunk.js",
+    "main.js.map": "/zachkrevis.github.io/static/js/main.1f06624a.chunk.js.map",
+    "runtime-main.js": "/zachkrevis.github.io/static/js/runtime-main.1ac729c3.js",
+    "runtime-main.js.map": "/zachkrevis.github.io/static/js/runtime-main.1ac729c3.js.map",
+    "static/css/2.f9f7ba1f.chunk.css": "/zachkrevis.github.io/static/css/2.f9f7ba1f.chunk.css",
+    "static/js/2.8e7e4be9.chunk.js": "/zachkrevis.github.io/static/js/2.8e7e4be9.chunk.js",
+    "static/js/2.8e7e4be9.chunk.js.map": "/zachkrevis.github.io/static/js/2.8e7e4be9.chunk.js.map",
+    "index.html": "/zachkrevis.github.io/index.html",
+    "static/css/2.f9f7ba1f.chunk.css.map": "/zachkrevis.github.io/static/css/2.f9f7ba1f.chunk.css.map",
+    "static/css/main.7c42862c.chunk.css.map": "/zachkrevis.github.io/static/css/main.7c42862c.chunk.css.map",
+    "static/js/2.8e7e4be9.chunk.js.LICENSE.txt": "/zachkrevis.github.io/static/js/2.8e7e4be9.chunk.js.LICENSE.txt",
+    "static/media/Notepad.04dcc723.png": "/zachkrevis.github.io/static/media/Notepad.04dcc723.png",
+    "static/media/Responsive.ce966c69.png": "/zachkrevis.github.io/static/media/Responsive.ce966c69.png",
+    "static/media/face.8d65467d.png": "/zachkrevis.github.io/static/media/face.8d65467d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5116ac6f.js",
+    "static/js/runtime-main.1ac729c3.js",
     "static/css/2.f9f7ba1f.chunk.css",
-    "static/js/2.82c1248a.chunk.js",
+    "static/js/2.8e7e4be9.chunk.js",
     "static/css/main.7c42862c.chunk.css",
     "static/js/main.1f06624a.chunk.js"
   ]
