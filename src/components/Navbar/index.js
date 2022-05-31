@@ -1,41 +1,33 @@
 import React from 'react';
 import {FaBars} from 'react-icons/fa';
-import {
-    Nav,
-    NavbarContainer,
-    NavbarLogo,
-    MobileLogo,
-    NavMenu,
-    NavItem,
-    NavLinks
-} from './NavbarElement';
+import './navbar_style.scss';
+
+import { Link } from 'react-scroll';
+
 
 
 const Navbar = ({toggle}) => {
     return (
         <>
-            <Nav>
-                <NavbarContainer>
-                    <NavbarLogo to='/'>Zach Krevis</NavbarLogo>
-                    <MobileLogo onClick={toggle}>
-                        <FaBars />
-                    </MobileLogo>
-                    <NavMenu>
-                        <NavItem>
-                            <NavLinks to="AboutMe" spy={true} smooth={true} duration={500}>About Me</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="CourseWork" spy={true} smooth={true} duration={500}>Course Work</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="Experience">Experience</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="contact">Contact</NavLinks>
-                        </NavItem>
-                    </NavMenu>
-                </NavbarContainer>
-            </Nav>
+            <nav>
+                <div className='NavbarContainer'>
+                    <Link className='NavH1' to='HeroContainer' spy={true} smooth={true} duration={500} offset={-80}>Zach Krevis</Link>
+                    <div className='MobileLogo' onClick={toggle}>
+                        <FaBars  />
+                    </div>
+                    <ul className='NavMenu'>
+                        <li className='NavItem'>
+                            <Link className="NavLink" to="AboutContainer" spy={true} smooth={true} duration={500} offset={-52} activeClass="active">About Me</Link>
+                        </li>
+                        <li className='NavItem'>
+                            <Link className="NavLink" to="Skills" spy={true} smooth={true} duration={500} offset={-52} activeClass="active">Skills</Link>
+                        </li>
+                        <li className='NavItem'>
+                            <Link className="NavLink" to="ContactMe" spy={true} smooth={true} duration={500} offset={-52} activeClass="active">Contact Me</Link>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </>
     )
 };

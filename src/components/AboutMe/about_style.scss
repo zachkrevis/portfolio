@@ -1,0 +1,111 @@
+@import "../../variables";
+
+.AboutContainer {
+    background: $main-dark;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+
+}
+
+.AboutContent {
+    z-index: 3;
+    min-height: 240px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+
+.AboutSection {
+    min-height: 320px;
+    width: 570px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $text1;
+    background: none;;
+
+}
+
+
+.AboutText {
+    z-index: 3;
+    position: relative;
+    flex-direction: column;
+    padding: 8px 24px;
+    display: block;
+    align-items: center;
+    background: none;
+
+}
+
+.AboutH1 {
+    color: $text1;
+    background: $main-dark;
+    font-size: 48px;
+    margin:0;
+    text-align: center;
+}
+
+.underline {
+    padding: 0 0 3px 0;
+    background: $underline;
+    margin-top: 24px;
+}
+
+.AboutP {
+    margin: 24px;
+    color: $text1;
+    font-size: 24px;
+    text-align: center;
+    background: none;
+}
+
+
+.AboutArt {
+    margin: 24px;
+    width: 360px;
+    min-height: 230px;
+    z-index: 10;
+    background: $accent;
+    mask: url("../../Photos/Responsive old.png") center/contain;
+    mask-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1280px) {
+    .AboutContainer {
+        min-height: 720px;
+    }
+    .AboutContent {
+        flex-direction: column !important;
+    }
+    
+    .AboutSection {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .AboutArt {
+    width: 320px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    
+    .AboutSection {
+        width:390px;
+    }
+}

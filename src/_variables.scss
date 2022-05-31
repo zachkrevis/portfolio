@@ -1,0 +1,8 @@
+$main: #191919;
+$main-dark: darken($main, 5%);
+$main-light: lighten($main, 5%);
+$accent: linear-gradient(to right, #fc466b, #3f5efb);
+$accent-dark: linear-gradient(to right, desaturate(darken(rgb(252, 70, 107), 5%), 10%), desaturate(darken(rgb(63, 94, 251), 5%), 10%));
+$underline: linear-gradient(to right, #c65ed1, rgba(#c65ed1, 0));
+$text1: white;
+$text2: white;

@@ -1,0 +1,120 @@
+@import "../../variables";
+
+.HeroContainer {
+    background: $main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 720px;
+    z-index: 1;
+
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.3),0 4px 5px 0 rgba(0,0,0,0.2),0 1px 10px 0 rgba(0,0,0,0.1);
+
+}
+
+
+.HeroContent {
+    padding: 8px 24px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+}
+
+
+.HeroH1 {
+    color: $text1;
+    font-size: 48px;
+    margin: 0px;
+}
+
+.HeroP {
+    margin-top: 24px;
+    color: $text1;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.HeroLogo {
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.HeroLink {
+    display: flex;
+    height: 2.5rem;
+    width: 9rem;
+    border-radius: 1rem;
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none;
+    background-clip: padding-box;
+    box-shadow: none !important;
+    border:none;
+    outline:none;
+    padding: .5rem;
+    box-sizing: border-box;
+    font-size:1rem;
+    margin-top: 1.5rem;
+    z-index: 7;
+    background: $accent;
+    color: $text2;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.HeroLink:hover {
+    background: $accent-dark;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .HeroContainer {
+        flex-direction: column-reverse;
+    }
+
+    .HeroContent {
+        justify-content: center;
+        align-items: center;
+        margin:0;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .HeroLogo {
+        width: 15rem;
+        height: 15rem;
+    }
+    
+    .HeroP {
+        font-size: 18px;
+    }
+
+    .HeroH1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+
+    .HeroLogo {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .HeroP {
+        font-size: 16px;
+    }
+
+    .HeroH1 {
+        font-size: 28px;
+    }
+}

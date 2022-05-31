@@ -1,33 +1,32 @@
 import React from 'react';
-import { SidebarContainer, Icon, CloseIcon, SidebarItems, SidebarLink, SidebarWrapper } from './SidebarElements';
+import './SidebarElements.scss';
+import { Link } from 'react-scroll';
+import {FaTimes} from 'react-icons/fa';
 
 const Sidebar = ({isOpen, toggle}) => {
+
   return (
-    <SidebarContainer isOpen={isOpen}>
-      <Icon onClick={toggle}>
-        <CloseIcon />
-      </Icon>
-      <SidebarWrapper>
-        <SidebarItems>
-          <SidebarLink to="AboutMe" spy={true} smooth={true} duration={500} onClick={toggle}>
-            About me
-          </SidebarLink>
+    <aside className={`SidebarContainer ${(isOpen) ? "open" : "closed" } `}>
+      <div className="Icon" onClick={toggle}>
+        <FaTimes className='Close'/>
+      </div>
+      <div className="SidebarWrapper">
+        <div className="SidebarItems">
+          <Link className="SidebarLink" to="AboutContainer" spy={true} smooth={true} duration={500} onClick={toggle}>
+            About Me
+          </Link>
 
-          <SidebarLink to="CourseWork" spy={true} smooth={true} duration={500} onClick={toggle}>
+          <Link className="SidebarLink" to="CourseWork" spy={true} smooth={true} duration={500} onClick={toggle}>
             Course Work
-          </SidebarLink>
-  
-          <SidebarLink to="experience" onClick={toggle}>
-            Experience
-          </SidebarLink>
+          </Link>
 
-          <SidebarLink to="contact" onClick={toggle}>
+          <Link className="SidebarLink" to="ContactMe" spy={true} smooth={true} duration={500} onClick={toggle}>
             Contact
-          </SidebarLink>
+          </Link>
 
-        </SidebarItems>
-      </SidebarWrapper>
-    </SidebarContainer>
+        </div>
+      </div>
+    </aside>
   )
 };
 

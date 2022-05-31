@@ -1,0 +1,102 @@
+@import "../../variables";
+
+.SidebarContainer {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background: #191919;
+    display: grid;
+    align-items: center;
+    top: 0;
+}
+
+
+.Icon {
+    position: absolute;
+    top: 1.2rem;
+    right: 1.5rem;
+    background: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.Close {
+    color: $text1;
+}
+
+.SidebarWrapper {
+    color: $text1;
+}
+
+.SidebarItems {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 80px);
+    text-align: center;
+
+}
+
+.SidebarLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.2 ease-in-out;
+    color: $text1;
+    cursor: pointer;
+    
+}
+.SidebarLink:hover {
+    color: $accent;
+    transition: 0.2s ease-in-out;
+}
+
+.closed {
+    opacity: 0;
+    animation: close 0.3s ease-in-out;
+    right: -100%;
+}
+
+.open {
+
+    display: grid;
+    animation: open 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 480) {
+
+    .SidebarItems {
+        grid-template-rows: repeat(6, 60px);
+    }
+}
+
+@keyframes open {
+
+  0% {
+    right: -100%;
+    opacity: 0;
+  }
+  100% {
+    right: 0;
+    opacity: 100%;
+  }
+}
+
+@keyframes close {
+    0% {
+        right: 0;
+        opacity: 100%;
+        display: grid;
+    }
+
+    100% {
+        right: -100%;
+        opacity: 0;
+        display: none !important;
+    }
+  }

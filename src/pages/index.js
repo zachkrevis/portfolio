@@ -3,7 +3,8 @@ import Sidebar from '../components/Sidebar/';
 import Navbar from '../components/Navbar/';
 import HeroSection from '../components/HeroSection';
 import AboutMe from '../components/AboutMe';
-import CourseWork from '../components/CourseWorks';
+import Skills from '../components/Skills';
+import ContactMe from '../components/ContactMe';
 
 const Home = () => {
 
@@ -19,7 +20,8 @@ const Home = () => {
     <Navbar toggle={toggle}/>
     <HeroSection />
     <AboutMe />
-    <CourseWork />
+    <Skills />
+    <ContactMe />
    </>
  );
   

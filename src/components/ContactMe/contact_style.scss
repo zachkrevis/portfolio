@@ -1,0 +1,197 @@
+@import "../../variables";
+
+.ContactMe {
+    background: $main;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 28px 28px 28px;;
+    margin: 0px;
+    min-height: 680px;
+    position: relative;
+    z-index: 0;
+
+
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.3),0 4px 5px 0 rgba(0,0,0,0.2),0 1px 10px 0 rgba(0,0,0,0.1);
+
+}
+
+
+
+.ContactForm {
+    z-index: 3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.ContactInfo {
+    display: flex;
+    flex-direction: column;
+    color: $text1;
+    margin-right: 10rem;
+}
+
+.ContactPhoto {
+    height: 280px;
+    margin: 1rem;
+    margin-top: 3rem;
+}
+
+.Title {
+    font-size: 3rem;
+    background: $main;
+}
+
+.ContactUnderline {
+    padding: 0 0 3px 0;
+    background: $underline;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+input {
+    height:3rem;
+    width: 25rem;
+    border-radius: .625rem;
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none;
+    background-clip: padding-box;
+    box-shadow: none !important;
+    border:1px solid $main-dark;
+    outline:none;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-size:1rem;
+    z-index: 7;
+    background: white;
+    margin: .5rem 0;
+    
+}
+
+
+textarea {
+    height: 10rem;
+    width: 25rem;
+    resize: none;
+    border-radius: .625rem;
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none;
+    background-clip: padding-box;
+    box-shadow: none !important;
+    border:1px solid $main-dark;
+    outline:none;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-size:1rem;
+    z-index: 7;
+    background: white;
+
+    margin: .5rem 0;
+}
+
+button {
+    height: 3rem;
+    width: 10rem;
+    border-radius: .625rem;
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none;
+    background-clip: padding-box;
+    box-shadow: none !important;
+    border:none;
+    outline:none;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-size:1rem;
+    z-index: 7;
+    background: $accent;
+    color: $text2;
+    cursor: pointer;
+
+    margin: .5rem 0;
+
+    
+}
+
+button:hover {
+    background: $accent-dark;
+}
+
+.successBox {
+    background: rgb(110, 190, 110);
+    display: none;
+    color: white;
+    height:2.5rem;
+    width: 25rem;
+    border-radius: 12px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 8px;
+    position: relative;
+}
+
+.success > .successBox {
+    display: flex !important;
+}
+
+.errorBox {
+    background: rgb(196, 111, 111);
+    display: none;
+    color: white;
+    height:3rem;
+    width: 25rem;
+    border-radius: 12px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 8px;
+    position: relative;
+}
+
+.error > .errorBox {
+    display: flex !important;
+}
+
+
+@media screen and (max-width: 1280px) {
+
+    .ContactMe {
+        flex-direction: column !important;
+    }
+
+    .ContactForm {
+        width: 80%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    .ContactInfo {
+        width: 80%;
+        align-items: center;
+        margin: 3rem 0;
+    }
+    
+    .successBox {
+        width: 100%;
+    }
+
+    .errorBox {
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,115 @@
+@import "../../variables";
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: sticky;
+  padding: .25rem 10rem;
+  top: 0;
+  z-index: 10;
+
+  @media screen and (max-width: 960px) {
+      transition: 0.8s all ease;
+  }
+
+  background: rgba($main, .8);
+  backdrop-filter: saturate(180%) blur(20px);
+
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.3),0 4px 5px 0 rgba(0,0,0,0.2),0 1px 10px 0 rgba(0,0,0,0.1);
+
+}
+
+.NavbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.NavH1 {
+  background: $accent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  justify-self: flex-start;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0 .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.MobileLogo {
+  display:none;
+
+}
+
+.NavMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  list-style: none;
+  text-align: left;
+
+  box-sizing: border-box;
+
+}
+
+
+
+.NavItem {
+    display: flex;
+    align-items: center;
+    text-align: none;
+    text-decoration: none;
+    margin: .25rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1280px) {
+  nav {
+    padding: .25rem 2rem;
+  }
+}
+
+@media screen and (max-width:768px) {
+    .MobileLogo {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        text-align: left;
+        color: $text1;
+        font-size: 1.8rem;
+        margin-bottom: 2px;
+    }
+    .NavMenu {
+        display: none;
+    }
+  }
+
+.NavLink {
+  height: 2rem;
+  width:100%;
+  display: flex;
+  padding: .5rem;
+  align-items: center;
+  color: $text1;
+  border-radius: .325rem;
+  animation: background .2s ease-in-out;
+  
+
+  cursor: pointer;
+}
+
+.NavLink.active {
+  background: $accent;
+  color: $text2;
+  transition: background .2s ease-in-out;
+}
+
