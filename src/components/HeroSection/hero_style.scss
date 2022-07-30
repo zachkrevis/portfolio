@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    height: 720px;
+    height: 45rem;
     z-index: 1;
 
     box-shadow: 0 2px 4px -1px rgba(0,0,0,0.3),0 4px 5px 0 rgba(0,0,0,0.2),0 1px 10px 0 rgba(0,0,0,0.1);
@@ -15,7 +15,7 @@
 
 
 .HeroContent {
-    padding: 8px 24px;
+    padding: .5rem 1.5rem;
     display: flex;
     flex-direction: column;
     margin-right: 10rem;
@@ -24,14 +24,14 @@
 
 .HeroH1 {
     color: $text1;
-    font-size: 48px;
+    font-size: 3rem;
     margin: 0px;
 }
 
 .HeroP {
-    margin-top: 24px;
+    margin-top: 1.5rem;
     color: $text1;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
 
 }
@@ -39,7 +39,7 @@
 .HeroLogo {
     width: 20rem;
     height: 20rem;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     position: relative;
 }
 

@@ -79,6 +79,11 @@ nav {
 }
 
 @media screen and (max-width:768px) {
+
+    nav {
+      padding: .5rem 2rem !important;
+    }
+
     .MobileLogo {
         display: flex;
         align-items: center;

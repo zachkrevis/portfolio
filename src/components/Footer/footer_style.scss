@@ -1,0 +1,42 @@
+@import "../../variables";
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  padding: .5rem 10rem;
+  top: 0;
+  z-index: 10;
+
+  background: $main-dark;
+  color: $text1;
+  font-size:1rem;
+
+}
+
+.footerMenu {
+  width: 10rem;
+ display: flex;
+ justify-content: space-evenly;
+ flex-direction: row;
+}
+
+.footerButton {
+  height: 2rem;
+  width:2rem;
+}
+
+.footerMenu a {
+  text-decoration: none;
+  color: $text1;
+  font-size: xx-large;
+  margin: .5rem;
+
+}
+
+.footerMenu a:hover {
+  color: darken($text1, 40%)
+}
+

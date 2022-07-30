@@ -16,8 +16,12 @@ const Sidebar = ({isOpen, toggle}) => {
             About Me
           </Link>
 
-          <Link className="SidebarLink" to="CourseWork" spy={true} smooth={true} duration={500} onClick={toggle}>
-            Course Work
+          <Link className="SidebarLink" to="Skills" spy={true} smooth={true} duration={500} onClick={toggle}>
+            Skills
+          </Link>
+
+          <Link className="SidebarLink" to="ProjectsContainer" spy={true} smooth={true} duration={500} onClick={toggle}>
+            Projects
           </Link>
 
           <Link className="SidebarLink" to="ContactMe" spy={true} smooth={true} duration={500} onClick={toggle}>

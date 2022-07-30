@@ -23,6 +23,9 @@ const Navbar = ({toggle}) => {
                             <Link className="NavLink" to="Skills" spy={true} smooth={true} duration={500} offset={-52} activeClass="active">Skills</Link>
                         </li>
                         <li className='NavItem'>
+                            <Link className="NavLink" to="ProjectsContainer" spy={true} smooth={true} duration={500} offset={-52} activeClass="active">Projects</Link>
+                        </li>
+                        <li className='NavItem'>
                             <Link className="NavLink" to="ContactMe" spy={true} smooth={true} duration={500} offset={-52} activeClass="active">Contact Me</Link>
                         </li>
                     </ul>

@@ -44,7 +44,7 @@
 }
 
 .CourseP {
-    margin-top: 1em;
+    margin-top: 1rem;
     color: $text1;
     text-align: center;
 }
@@ -64,15 +64,14 @@ li {
     margin-top: 1.25rem;
 }
 
+
 .SkillIcon{
-    margin-right: 1rem;
     font-weight:900;
     font-size: x-large;
-    color: $accent;
-}
+    width: 1.5rem;
+    height: 1.5rem;
 
-path {
-    fill: $accent;
+    margin-right: 1rem;
 }
 
 
@@ -85,5 +84,10 @@ path {
     .Block {
         width: 80%;
     }
+
+
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
 
 }

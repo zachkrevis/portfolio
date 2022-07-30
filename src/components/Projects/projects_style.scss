@@ -1,0 +1,156 @@
+@import "../../variables";
+
+
+.ProjectsContainer {
+    background: $main;
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+
+}
+
+.ProjectsTitle {
+    color: $text1;
+    background: $main;
+    font-size: 3rem;
+    margin:0;
+    text-align: left;
+}
+
+.ProjectsUnderline {
+    padding: 0 0 3px 0;
+    background: $underline;
+    margin-top: 1.5rem;
+}
+
+.ProjectsOverlay {
+    position: relative;
+    height:20rem;
+    width: 35rem;
+    overflow: hidden;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.3), 0 4px 5px 0 rgba(0,0,0,0.2), 0 1px 10px 0 rgba(0,0,0,0.1);
+    border-radius: .625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0)
+}
+
+.ProjectImage {
+    position: absolute;
+    height: 22rem;
+    filter: blur(0px) brightness(1);
+    -webkit-filter: blur(0pc) brightness(1);
+    -o-filter: blur(0px) brightness(1);
+    -moz-filter: blur(0px) brightness(1);
+
+
+    transition: height .5s ease-in-out, filter .5s ease-in-out;
+    -webkit-transition: height .5s ease-in-out, filter .5s ease-in-out;
+    -o-transition: height .5s ease-in-out, filter .5s ease-in-out;
+    -moz-transition: height .5s ease-in-out, filter .5s ease-in-out;
+}
+
+.ProjectsOverlay:hover > .ProjectImage{
+    height: 25rem;
+
+    filter: blur(2px) brightness(.5);
+    -webkit-filter: blur(2px) brightness(.5);
+    -o-filter: blur(2px) brightness(.5);
+    -moz-filter: blur(2px) brightness(.5);
+
+    transition: height .5s ease-in-out, filter .5s ease-in-out;
+    -webkit-transition: height .5s ease-in-out, filter .5s ease-in-out;
+    -o-transition: height .5s ease-in-out, filter .5s ease-in-out;
+    -moz-transition: height .5s ease-in-out, filter .5s ease-in-out;
+}
+
+.ProjectContent {
+    z-index: 2;
+    opacity: 0;
+    visibility:hidden;
+    color: white;
+
+    padding: 3rem;
+    text-align: center;
+
+    transition: visibility .5s ease-in-out, opacity .5s ease-in-out;
+    -webkit-transition: visibility .5s ease-in-out, opacity .5s ease-in-out;
+    -o-transition: visibility .5s ease-in-out, opacity .5s ease-in-out;
+    -moz-transition: visibility .5s ease-in-out, opacity .5s ease-in-out;
+}
+
+.ProjectContent h2 {
+    color: white;
+    text-decoration: underline;
+    margin: .5rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3), 0 4px 5px rgba(0,0,0,0.2), 0 1px 10px rgba(0,0,0,0.1);
+}
+
+.ProjectContent p {
+    color: white;
+    margin: .5rem;
+    font-size: 1.1rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3), 0 4px 5px rgba(0,0,0,0.2), 0 1px 10px rgba(0,0,0,0.1);
+}
+
+.ProjectContent span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProjectContent span a {
+    width: 5rem;
+    height: 2rem;
+    margin: .5rem;
+    background: $accent;
+    text-decoration: none;
+    color: $text2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .625rem;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.3), 0 4px 5px 0 rgba(0,0,0,0.2), 0 1px 10px 0 rgba(0,0,0,0.1);
+}
+
+.ProjectContent span a:hover {
+    background: $accent-dark;
+}
+
+.ProjectsOverlay:hover > .ProjectContent{
+    opacity: 1;
+    visibility: visible;
+
+    transition: visibility .5s ease-in-out, opacity .5s ease-in-out;
+    -webkit-transition: visibility .5s ease-in-out, opacity .5s ease-in-out;
+    -o-transition: visibility .5s ease-in-out, opacity .5s ease-in-out;
+    -moz-transition: visibility .5s ease-in-out, opacity .5s ease-in-out;
+}
+
+
+@media screen and (max-width: 720px) {
+    .ProjectsOverlay {
+        width: 80%;
+        height: auto;
+    }
+
+    .ProjectImage {
+        height: 100%
+    }
+
+    .ProjectsOverlay:hover > .ProjectImage{
+        height: 110%;
+    }
+
+    
+}
